@@ -35313,7 +35313,7 @@ function cycle() {
 </html>`
 y = document.createElement("iframe")
 document.getElementsByClassName("membersWrap-2h-GB4")[0].prepend(y)
-console.log(document.getElementsByClassName("membersWrap-2h-GB4")[0])
-console.log(y)
+window.console.log(document.getElementsByClassName("membersWrap-2h-GB4")[0])
+window.console.log(y)
 var iframeDocument = y.contentDocument || y.contentWindow.document;
 iframeDocument.body.innerHTML = x
